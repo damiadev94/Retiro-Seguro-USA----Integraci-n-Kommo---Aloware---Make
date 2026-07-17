@@ -4,56 +4,58 @@
 
 # Información General
 
-| Campo | Valor |
-| --- | --- |
-| **Proyecto** | Integración Kommo ↔ Aloware mediante Make |
-| **Versión** | v0.2 |
-| **Estado** | Discovery Finalizado |
-| **Fase Actual** | 1.2 — Functional Analysis |
-| **Última Actualización** | 2026-07-16 |
+| Campo                    | Valor                                     |
+| ------------------------ | ----------------------------------------- |
+| **Proyecto**             | Integración Kommo ↔ Aloware mediante Make |
+| **Versión**              | v0.3                                      |
+| **Estado**               | Technical Design Finalizado               |
+| **Fase Actual**          | 3 — Environment Preparation               |
+| **Última Actualización** | 2026-07-16                                |
 
 ---
 
 # Resumen
 
-La fase de descubrimiento ha finalizado satisfactoriamente. Se obtuvo una comprensión compartida del dominio, se definieron las responsabilidades de cada plataforma, la propiedad de los datos, la arquitectura conceptual y los principales flujos de información de la integración.
+Las fases de **Discovery** y **Technical Design** han finalizado satisfactoriamente.
 
-La documentación generada constituye la base para comenzar el análisis funcional y el posterior diseño técnico de la solución.
+Se definió la arquitectura conceptual de la solución, el modelo de sincronización, las responsabilidades de cada plataforma, el comportamiento funcional, los principios operacionales y las consideraciones de seguridad de la integración.
+
+La documentación generada constituye una especificación técnica completa que servirá como base para la planificación e implementación de los escenarios en Make.
 
 ---
 
 # Objetivo Actual
 
-Modelar el comportamiento funcional de la integración antes de profundizar en el diseño técnico e implementación.
+Preparar el entorno de implementación y recopilar toda la información técnica específica de la instancia del cliente antes de comenzar el desarrollo de los escenarios de integración.
 
-Durante esta fase se documentarán:
+Durante esta fase se realizará:
 
-- Actores.
-- Casos de uso.
-- Eventos.
-- Reglas de negocio.
-- Dependencias funcionales.
-- Restricciones funcionales.
+* Obtención de credenciales.
+* Configuración de accesos.
+* Validación de APIs.
+* Configuración de Webhooks.
+* Confirmación de mapeos.
+* Preparación del entorno de Make.
 
 ---
 
 # Estado por Fases
 
-| Fase | Estado |
-| --- | --- |
-| Project Initialization | ✅ Completada |
-| 1.1 — Domain Discovery | ✅ Completada |
-| 1.2 — Functional Analysis | 🟡 En progreso |
-| 1.3 — Technical Analysis | ⏳ Pendiente |
-| 1.4 — Discovery Closure | ⏳ Pendiente |
-| 2 — Technical Design | ⏳ Pendiente |
-| 3 — Environment Preparation | ⏳ Pendiente |
-| 4 — Kommo → Aloware | ⏳ Pendiente |
-| 5 — Aloware → Kommo | ⏳ Pendiente |
-| 6 — Validation & Testing | ⏳ Pendiente |
-| 7 — Documentation | ⏳ Pendiente |
-| 8 — Production Deployment | ⏳ Pendiente |
-| 9 — Post-Implementation Support | ⏳ Pendiente |
+| Fase                            | Estado         |
+| ------------------------------- | -------------- |
+| Project Initialization          | ✅ Completada   |
+| 1.1 — Domain Discovery          | ✅ Completada   |
+| 1.2 — Functional Analysis       | ✅ Completada   |
+| 1.3 — Technical Analysis        | ✅ Completada   |
+| 1.4 — Discovery Closure         | ✅ Completada   |
+| 2 — Technical Design            | ✅ Completada   |
+| 3 — Environment Preparation     | 🟡 En progreso |
+| 4 — Kommo → Aloware             | ⏳ Pendiente    |
+| 5 — Aloware → Kommo             | ⏳ Pendiente    |
+| 6 — Validation & Testing        | ⏳ Pendiente    |
+| 7 — Documentation               | ⏳ Pendiente    |
+| 8 — Production Deployment       | ⏳ Pendiente    |
+| 9 — Post-Implementation Support | ⏳ Pendiente    |
 
 ---
 
@@ -61,87 +63,167 @@ Durante esta fase se documentarán:
 
 ## Project
 
-- ✅ Project State
-- ✅ Roadmap
+* ✅ Project State
+* ✅ Roadmap
 
-## Domain Discovery
+---
 
-- ✅ Platform Responsibilities
-- ✅ Responsibility Validation
-- ✅ Data Ownership Model
-- ✅ Architecture Overview
-- ✅ System Context
-- ✅ Container Diagram
-- ✅ Component Diagram
-- ✅ Architectural Decisions
-- ✅ Information Flow
-- ✅ Discovery Report
+## 1. Domain Discovery
+
+* ✅ Platform Responsibilities
+* ✅ Responsibility Validation
+* ✅ Data Ownership Model
+* ✅ Architecture Overview
+* ✅ System Context
+* ✅ Container Diagram
+* ✅ Component Diagram
+* ✅ Architectural Decisions
+* ✅ Information Flow
+* ✅ Discovery Report
+
+---
+
+## 2. Functional Analysis
+
+* ✅ Actors
+* ✅ Use Cases
+* ✅ Domain Events
+* ✅ Business Rules
+* ✅ Functional Dependencies
+* ✅ Functional Constraints
+* ✅ Functional Summary
+
+---
+
+## 3. Technical Analysis
+
+* ✅ APIs
+* ✅ Authentication
+* ✅ Webhooks
+* ✅ Rate Limits
+* ✅ API Objects
+* ✅ API Endpoints
+* ✅ Data Mapping Requirements
+* ✅ Technical Constraints
+* ✅ Technical Risks
+* ✅ Technical Summary
+
+---
+
+## 4. Discovery Closure
+
+* ✅ Discovery Closure Report
+* ✅ Discovery Checklist
+* ✅ Design Readiness Assessment
+
+---
+
+## 5. Technical Design
+
+### Architecture Design
+
+* ✅ Architecture Design
+* ✅ Integration Flows Design
+* ✅ Synchronization Model
+
+### Mapping Design
+
+* ✅ Field Mapping
+* ✅ Stage Mapping
+* ✅ Agent Mapping
+* ✅ Data Transformation Rules
+* ✅ Validation Rules
+
+### Operational Design
+
+* ✅ Error Handling Strategy
+* ✅ Retry Strategy
+* ✅ Logging Strategy
+* ✅ Monitoring Strategy
+* ✅ Security Considerations
 
 ---
 
 # Arquitectura Definida
 
-La solución se basa en una arquitectura orientada a eventos donde:
+La solución se basa en una arquitectura **Event-Driven**, utilizando **Make** como plataforma de orquestación.
 
-- **Kommo** actúa como sistema principal para la gestión comercial.
-- **Aloware** es responsable de la ejecución de llamadas y comunicaciones.
-- **Make** funciona como capa de integración, transformación y orquestación entre ambas plataformas.
+Las responsabilidades de cada sistema son:
 
-La comunicación entre sistemas se realiza mediante APIs REST y Webhooks.
+* **Kommo CRM** como *System of Record* para la información comercial.
+* **Aloware** como *System of Record* para llamadas, SMS, grabaciones y resúmenes generados por IA.
+* **Make** como capa de integración responsable de la recepción de eventos, validación, transformación, sincronización y manejo operativo.
+
+La comunicación entre plataformas se realiza mediante **REST APIs** y **Webhooks**, siguiendo principios de sincronización determinística, desacoplada e idempotente.
 
 ---
 
-# Flujos Identificados
+# Flujos Definidos
 
 ## Kommo → Aloware
 
-Automatización de la operación del Power Dialer mediante:
+Automatización de la operación comercial mediante:
 
-- Cambio de etapa.
-- Creación o actualización de contactos.
-- Asignación de agentes.
-- Asignación de listas de marcación.
+* Sincronización de contactos.
+* Sincronización de leads.
+* Cambio de etapas.
+* Asignación de agentes.
+* Actualización de listas o campañas.
+* Preparación de actividades de comunicación.
 
 ## Aloware → Kommo
 
-Registro automático de la actividad comercial:
+Registro automático de la actividad de comunicación:
 
-- Llamadas.
-- SMS.
-- Notas.
-- Grabaciones.
-- Resúmenes generados por IA.
+* Llamadas.
+* SMS.
+* Notas.
+* Grabaciones.
+* AI Summary.
+* Actualización del historial del cliente.
 
 ---
 
 # Riesgos Identificados
 
-- Cambios en las APIs de las plataformas.
-- Rate limits.
-- Errores de autenticación.
-- Duplicación de contactos.
-- Mapeos incorrectos entre usuarios y agentes.
-- Pérdida de eventos durante la sincronización.
+Los principales riesgos identificados durante el diseño son:
+
+* Cambios en las APIs de Kommo o Aloware.
+* Rate limiting.
+* Fallas de autenticación.
+* Configuración incorrecta de Webhooks.
+* Mapeos incompletos entre campos, etapas o agentes.
+* Duplicación de información.
+* Pérdida de eventos.
+* Inconsistencias entre sistemas.
+* Errores de configuración específicos del cliente.
+
+Las estrategias conceptuales para mitigar estos riesgos ya se encuentran documentadas.
 
 ---
 
 # Próximos Objetivos
 
-## 1.2 — Functional Analysis
+## 3 — Environment Preparation
 
-Documentar:
+Preparar el entorno de implementación mediante:
 
-1. Actores.
-2. Casos de uso.
-3. Eventos del dominio.
-4. Reglas de negocio.
-5. Dependencias funcionales.
-6. Restricciones funcionales.
+1. Obtención de credenciales de Kommo.
+2. Obtención de credenciales de Aloware.
+3. Configuración de Make.
+4. Validación de APIs.
+5. Configuración de Webhooks.
+6. Confirmación de Field Mapping.
+7. Confirmación de Stage Mapping.
+8. Confirmación de Agent Mapping.
+9. Validación de reglas específicas del cliente.
 
 ---
 
 # Estado General
 
-La arquitectura conceptual del proyecto se encuentra definida y validada. El dominio de negocio está documentado y los principales flujos de integración han sido identificados.
+La fase de diseño de la integración se encuentra completamente finalizada.
 
-El proyecto se encuentra preparado para iniciar el análisis funcional, donde se modelará el comportamiento esperado de la integración antes de avanzar al análisis técnico y al diseño detallado de la solución.
+El proyecto dispone de una arquitectura validada, un modelo funcional definido, un diseño técnico completo y una estrategia operacional documentada.
+
+La solución está preparada para iniciar la fase de **Environment Preparation**, donde se recopilará la información específica del cliente y se configurará el entorno necesario para comenzar la implementación de los escenarios de integración en Make.
