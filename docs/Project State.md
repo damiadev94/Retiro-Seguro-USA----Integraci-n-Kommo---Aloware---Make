@@ -2,228 +2,349 @@
 
 ---
 
-# Información General
+# General Information
 
-| Campo                    | Valor                                     |
-| ------------------------ | ----------------------------------------- |
-| **Proyecto**             | Integración Kommo ↔ Aloware mediante Make |
-| **Versión**              | v0.3                                      |
-| **Estado**               | Technical Design Finalizado               |
-| **Fase Actual**          | 3 — Environment Preparation               |
-| **Última Actualización** | 2026-07-16                                |
-
----
-
-# Resumen
-
-Las fases de **Discovery** y **Technical Design** han finalizado satisfactoriamente.
-
-Se definió la arquitectura conceptual de la solución, el modelo de sincronización, las responsabilidades de cada plataforma, el comportamiento funcional, los principios operacionales y las consideraciones de seguridad de la integración.
-
-La documentación generada constituye una especificación técnica completa que servirá como base para la planificación e implementación de los escenarios en Make.
+| Field | Value |
+|--------|-------|
+| **Project** | Kommo ↔ Aloware Integration via Make |
+| **Version** | v0.4 |
+| **Status** | Environment Preparation Completed |
+| **Current Phase** | 4 — Implementation |
+| **Last Updated** | 2026-07-17 |
 
 ---
 
-# Objetivo Actual
+# Executive Summary
 
-Preparar el entorno de implementación y recopilar toda la información técnica específica de la instancia del cliente antes de comenzar el desarrollo de los escenarios de integración.
+The project has successfully completed the **Discovery**, **Technical Design**, and **Environment Preparation** phases.
 
-Durante esta fase se realizará:
+At this stage, the integration architecture, synchronization model, platform responsibilities, operational strategies, customer configuration, and implementation prerequisites have been fully documented and validated.
 
-* Obtención de credenciales.
-* Configuración de accesos.
-* Validación de APIs.
-* Configuración de Webhooks.
-* Confirmación de mapeos.
-* Preparación del entorno de Make.
+The project now possesses all the technical information, configuration inventories, mapping specifications, readiness assessments, and operational documentation required to begin building the integration scenarios.
+
+The project is formally authorized to transition into the **Implementation** phase.
 
 ---
 
-# Estado por Fases
+# Current Objective
 
-| Fase                            | Estado         |
-| ------------------------------- | -------------- |
-| Project Initialization          | ✅ Completada   |
-| 1.1 — Domain Discovery          | ✅ Completada   |
-| 1.2 — Functional Analysis       | ✅ Completada   |
-| 1.3 — Technical Analysis        | ✅ Completada   |
-| 1.4 — Discovery Closure         | ✅ Completada   |
-| 2 — Technical Design            | ✅ Completada   |
-| 3 — Environment Preparation     | 🟡 En progreso |
-| 4 — Kommo → Aloware             | ⏳ Pendiente    |
-| 5 — Aloware → Kommo             | ⏳ Pendiente    |
-| 6 — Validation & Testing        | ⏳ Pendiente    |
-| 7 — Documentation               | ⏳ Pendiente    |
-| 8 — Production Deployment       | ⏳ Pendiente    |
-| 9 — Post-Implementation Support | ⏳ Pendiente    |
+Design, build, configure, validate, and test the Make scenarios that implement the integration between Kommo and Aloware.
+
+During this phase the project will focus on:
+
+- Building Make scenarios.
+- Configuring triggers and webhooks.
+- Implementing synchronization logic.
+- Developing data transformations.
+- Implementing validation rules.
+- Configuring error handling.
+- Implementing monitoring and logging.
+- Executing technical testing.
 
 ---
 
-# Documentación Completada
+# Phase Status
 
-## Project
-
-* ✅ Project State
-* ✅ Roadmap
-
----
-
-## 1. Domain Discovery
-
-* ✅ Platform Responsibilities
-* ✅ Responsibility Validation
-* ✅ Data Ownership Model
-* ✅ Architecture Overview
-* ✅ System Context
-* ✅ Container Diagram
-* ✅ Component Diagram
-* ✅ Architectural Decisions
-* ✅ Information Flow
-* ✅ Discovery Report
+| Phase | Status |
+|-------|--------|
+| Project Initialization | ✅ Completed |
+| 1.1 — Domain Discovery | ✅ Completed |
+| 1.2 — Functional Analysis | ✅ Completed |
+| 1.3 — Technical Analysis | ✅ Completed |
+| 1.4 — Discovery Closure | ✅ Completed |
+| 2 — Technical Design | ✅ Completed |
+| 3 — Environment Preparation | ✅ Completed |
+| 4 — Implementation | 🟡 In Progress |
+| 5 — Validation & Testing | ⏳ Pending |
+| 6 — Documentation & Handover | ⏳ Pending |
+| 7 — Production Deployment | ⏳ Pending |
+| 8 — Post-Implementation Support | ⏳ Pending |
 
 ---
 
-## 2. Functional Analysis
+# Documentation Status
 
-* ✅ Actors
-* ✅ Use Cases
-* ✅ Domain Events
-* ✅ Business Rules
-* ✅ Functional Dependencies
-* ✅ Functional Constraints
-* ✅ Functional Summary
+## Project Management
+
+- ✅ Project State
+- ✅ Project Roadmap
 
 ---
 
-## 3. Technical Analysis
+## Phase 1 — Discovery
 
-* ✅ APIs
-* ✅ Authentication
-* ✅ Webhooks
-* ✅ Rate Limits
-* ✅ API Objects
-* ✅ API Endpoints
-* ✅ Data Mapping Requirements
-* ✅ Technical Constraints
-* ✅ Technical Risks
-* ✅ Technical Summary
+### Domain Discovery
+
+- ✅ Platform Responsibilities
+- ✅ Responsibility Validation
+- ✅ Data Ownership Model
+- ✅ Architecture Overview
+- ✅ System Context
+- ✅ Container Diagram
+- ✅ Component Diagram
+- ✅ Architectural Decisions
+- ✅ Information Flow
+- ✅ Discovery Report
+
+### Functional Analysis
+
+- ✅ Actors
+- ✅ Use Cases
+- ✅ Domain Events
+- ✅ Business Rules
+- ✅ Functional Dependencies
+- ✅ Functional Constraints
+- ✅ Functional Summary
+
+### Technical Analysis
+
+- ✅ APIs
+- ✅ Authentication
+- ✅ Webhooks
+- ✅ Rate Limits
+- ✅ API Objects
+- ✅ API Endpoints
+- ✅ Data Mapping Requirements
+- ✅ Technical Constraints
+- ✅ Technical Risks
+- ✅ Technical Summary
+
+### Discovery Closure
+
+- ✅ Discovery Closure Report
+- ✅ Discovery Checklist
+- ✅ Design Readiness Assessment
 
 ---
 
-## 4. Discovery Closure
-
-* ✅ Discovery Closure Report
-* ✅ Discovery Checklist
-* ✅ Design Readiness Assessment
-
----
-
-## 5. Technical Design
+## Phase 2 — Technical Design
 
 ### Architecture Design
 
-* ✅ Architecture Design
-* ✅ Integration Flows Design
-* ✅ Synchronization Model
+- ✅ Architecture Design
+- ✅ Integration Flows Design
+- ✅ Synchronization Model
 
 ### Mapping Design
 
-* ✅ Field Mapping
-* ✅ Stage Mapping
-* ✅ Agent Mapping
-* ✅ Data Transformation Rules
-* ✅ Validation Rules
+- ✅ Field Mapping
+- ✅ Stage Mapping
+- ✅ Agent Mapping
+- ✅ Data Transformation Rules
+- ✅ Validation Rules
 
 ### Operational Design
 
-* ✅ Error Handling Strategy
-* ✅ Retry Strategy
-* ✅ Logging Strategy
-* ✅ Monitoring Strategy
-* ✅ Security Considerations
+- ✅ Error Handling Strategy
+- ✅ Retry Strategy
+- ✅ Logging Strategy
+- ✅ Monitoring Strategy
+- ✅ Security Considerations
 
 ---
 
-# Arquitectura Definida
+## Phase 3 — Environment Preparation
 
-La solución se basa en una arquitectura **Event-Driven**, utilizando **Make** como plataforma de orquestación.
+### 3.1 Access Preparation
 
-Las responsabilidades de cada sistema son:
+- ✅ Access Preparation Plan
+- ✅ Credentials Inventory
+- ✅ Permission Matrix
+- ✅ Access Preparation Checklist
+- ✅ Access Preparation Report
 
-* **Kommo CRM** como *System of Record* para la información comercial.
-* **Aloware** como *System of Record* para llamadas, SMS, grabaciones y resúmenes generados por IA.
-* **Make** como capa de integración responsable de la recepción de eventos, validación, transformación, sincronización y manejo operativo.
+### 3.2 Environment Validation
 
-La comunicación entre plataformas se realiza mediante **REST APIs** y **Webhooks**, siguiendo principios de sincronización determinística, desacoplada e idempotente.
+- ✅ Environment Validation Plan
+- ✅ Environment Validation Checklist
+- ✅ API Validation Report
+- ✅ Webhook Validation Report
+- ✅ Environment Validation Report
 
----
+### 3.3 Configuration Discovery
 
-# Flujos Definidos
+- ✅ Configuration Discovery Plan
+- ✅ Kommo Configuration Inventory
+- ✅ Aloware Configuration Inventory
+- ✅ Field Mapping Specification
+- ✅ Stage Mapping Specification
+- ✅ Agent Mapping Specification
+- ✅ Custom Fields Specification
+- ✅ Tags & Labels Specification
+- ✅ Configuration Discovery Checklist
+- ✅ Configuration Discovery Report
 
-## Kommo → Aloware
+### 3.4 Environment Readiness
 
-Automatización de la operación comercial mediante:
-
-* Sincronización de contactos.
-* Sincronización de leads.
-* Cambio de etapas.
-* Asignación de agentes.
-* Actualización de listas o campañas.
-* Preparación de actividades de comunicación.
-
-## Aloware → Kommo
-
-Registro automático de la actividad de comunicación:
-
-* Llamadas.
-* SMS.
-* Notas.
-* Grabaciones.
-* AI Summary.
-* Actualización del historial del cliente.
-
----
-
-# Riesgos Identificados
-
-Los principales riesgos identificados durante el diseño son:
-
-* Cambios en las APIs de Kommo o Aloware.
-* Rate limiting.
-* Fallas de autenticación.
-* Configuración incorrecta de Webhooks.
-* Mapeos incompletos entre campos, etapas o agentes.
-* Duplicación de información.
-* Pérdida de eventos.
-* Inconsistencias entre sistemas.
-* Errores de configuración específicos del cliente.
-
-Las estrategias conceptuales para mitigar estos riesgos ya se encuentran documentadas.
+- ✅ Implementation Readiness Assessment
+- ✅ Environment Readiness Checklist
+- ✅ Open Issues Register
+- ✅ Go-Live Prerequisites
+- ✅ Environment Readiness Report
 
 ---
 
-# Próximos Objetivos
+# Architecture Status
 
-## 3 — Environment Preparation
+The integration architecture has been fully defined and validated.
 
-Preparar el entorno de implementación mediante:
+The solution follows an **Event-Driven Integration Architecture** using **Make** as the orchestration platform.
 
-1. Obtención de credenciales de Kommo.
-2. Obtención de credenciales de Aloware.
-3. Configuración de Make.
-4. Validación de APIs.
-5. Configuración de Webhooks.
-6. Confirmación de Field Mapping.
-7. Confirmación de Stage Mapping.
-8. Confirmación de Agent Mapping.
-9. Validación de reglas específicas del cliente.
+### System Responsibilities
+
+| Platform | Responsibility |
+|----------|----------------|
+| **Kommo CRM** | System of Record for commercial information, contacts, leads, pipelines and sales processes. |
+| **Aloware** | System of Record for communication activities including calls, SMS, recordings and AI-generated summaries. |
+| **Make** | Integration and orchestration layer responsible for event processing, transformation, synchronization, validation, logging and operational workflows. |
+
+Communication between systems is performed through REST APIs and Webhooks following deterministic, asynchronous and idempotent integration principles.
 
 ---
 
-# Estado General
+# Implementation Scope
 
-La fase de diseño de la integración se encuentra completamente finalizada.
+The implementation phase includes the construction of the following integration scenarios.
 
-El proyecto dispone de una arquitectura validada, un modelo funcional definido, un diseño técnico completo y una estrategia operacional documentada.
+## S01 — Lead Sync (Kommo → Aloware)
 
-La solución está preparada para iniciar la fase de **Environment Preparation**, donde se recopilará la información específica del cliente y se configurará el entorno necesario para comenzar la implementación de los escenarios de integración en Make.
+Synchronizes contacts and leads from Kommo into Aloware.
+
+---
+
+## S02 — Stage Listener
+
+Detects relevant stage changes within Kommo and initiates operational workflows inside Aloware.
+
+---
+
+## S03 — Activity Sync (Aloware → Kommo)
+
+Registers communication activities in Kommo.
+
+Includes:
+
+- Calls
+- SMS
+- Recordings
+- AI Summaries
+- Notes
+
+---
+
+## Supporting Components
+
+- Shared variables
+- Lookup tables
+- Mapping modules
+- Error handling
+- Retry logic
+- Logging
+- Monitoring
+- Notifications
+
+---
+
+# Current Risks
+
+The primary project risks remain operational rather than architectural.
+
+Current monitored risks include:
+
+- API version changes
+- Authentication failures
+- Webhook delivery failures
+- Rate limiting
+- Client-side configuration changes
+- Data duplication
+- Lost events
+- Synchronization inconsistencies
+- Third-party platform outages
+
+Mitigation strategies have been defined and documented during the Technical Design phase and will be implemented during scenario development.
+
+---
+
+# Current Success Criteria
+
+The implementation phase will be considered complete when:
+
+- All planned Make scenarios have been implemented.
+- All business rules are operational.
+- Field, stage and agent mappings function correctly.
+- Error handling has been implemented.
+- Retry mechanisms operate correctly.
+- Logging and monitoring are active.
+- End-to-end synchronization has been validated.
+- Technical documentation has been updated.
+
+---
+
+# Next Milestones
+
+## Phase 4 — Implementation
+
+1. Build Make scenarios.
+2. Configure webhooks.
+3. Implement API integrations.
+4. Configure mapping logic.
+5. Implement validation rules.
+6. Configure retries.
+7. Configure error handling.
+8. Configure logging.
+9. Configure monitoring.
+10. Execute internal technical validation.
+
+---
+
+## Phase 5 — Validation & Testing
+
+- Unit Testing
+- Integration Testing
+- End-to-End Testing
+- User Acceptance Testing (UAT)
+- Performance Validation
+- Error Recovery Testing
+
+---
+
+## Phase 6 — Documentation & Handover
+
+- Final implementation documentation.
+- Operational runbooks.
+- Deployment guide.
+- Configuration documentation.
+- Client handover package.
+
+---
+
+## Phase 7 — Production Deployment
+
+- Production deployment.
+- Production validation.
+- Initial monitoring.
+- Rollback verification.
+- Go-Live confirmation.
+
+---
+
+## Phase 8 — Post-Implementation Support
+
+- Hypercare period.
+- Incident management.
+- Performance monitoring.
+- Optimization.
+- Knowledge transfer.
+- Project closure.
+
+---
+
+# Overall Project Status
+
+The project has successfully completed all planning and preparation activities.
+
+The integration architecture, business model, technical design, customer configuration, implementation prerequisites and operational strategies have been documented and validated.
+
+The project has passed the **Environment Readiness** quality gate and is authorized to enter the **Implementation** phase.
+
+The focus now shifts from analysis and design to the construction, configuration, testing and operational validation of the Make integration scenarios.
