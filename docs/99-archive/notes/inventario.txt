@@ -1,0 +1,54 @@
+KOMMO
+
+Pipeline ID:
+Stages:
+Custom Fields:
+Users:
+Tags:
+Webhooks:
+
+--------------------------------
+
+ALOWARE
+
+API Key: B327972A
+Lists:
+List IDs:
+Users:
+Custom Fields:
+Campaigns:
+Webhooks:
+Call Status:
+Phone Numbers:
+
+--------------------------------
+
+MAKE
+
+Connections:
+Webhooks:
+Scenarios:
+Variables:
+
+--------------------------------
+
+
+## Authentication
+
+Method:
+API Token
+
+Credential:
+api_token
+
+OAuth:
+No
+
+Refresh Token:
+No
+
+Expiration:
+No documentada
+
+Permissions:
+Dependen del usuario propietario del token.
