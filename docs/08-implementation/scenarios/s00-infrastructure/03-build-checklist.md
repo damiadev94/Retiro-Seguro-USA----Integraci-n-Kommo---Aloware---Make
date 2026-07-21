@@ -50,12 +50,12 @@ Completion of this checklist is mandatory before beginning implementation of any
 
 | ID | Task | Status |
 |----|------|--------|
-| PRE-001 | Verify Make Organization access | ☐ |
-| PRE-002 | Verify Team access | ☐ |
-| PRE-003 | Verify Workspace access | ☐ |
-| PRE-004 | Verify required permissions | ☐ |
-| PRE-005 | Verify Environment Preparation completion | ☐ |
-| PRE-006 | Verify project documentation availability | ☐ |
+| PRE-001 | Verify Make Organization access | ■ |
+| PRE-002 | Verify Team access | ■ |
+| PRE-003 | Verify Workspace access | ■ |
+| PRE-004 | Verify required permissions | ■ |
+| PRE-005 | Verify Environment Preparation completion | ■ |
+| PRE-006 | Verify project documentation availability | ■ |
 
 ---
 
@@ -65,7 +65,7 @@ Completion of this checklist is mandatory before beginning implementation of any
 
 | ID | Task | Status |
 |----|------|--------|
-| CFG-001 | Verify workspace organization | ☐ |
+| CFG-001 | Verify workspace organization | ■ |
 | CFG-002 | Verify naming conventions | ☐ |
 | CFG-003 | Create S00 Infrastructure scenario | ☐ |
 | CFG-004 | Rename scenario according to project standard | ☐ |
