@@ -1,4 +1,3 @@
-````markdown
 # SOP-INF-002 Configure Shared Variables
 
 ---
